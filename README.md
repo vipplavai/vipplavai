@@ -72,8 +72,21 @@
 
 ---
 
+## 🔬 Research & Academic Publications
+
+### 📄 [Utilizing University Infrastructure for Effective Model Training: A Case Study of Distributed Data-Parallel (DDP) Setup](https://github.com/vipplavai/DDP)
+**Authors:** Prashanth Katakam *(Vipplav AI)*, Vineel Vaddi *(Vipplav AI)*, Devulapalli Sita *(GITAM University)*  
+[![DOI: 10.5281/zenodo.15715066](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.15715066-blue.svg)](https://doi.org/10.5281/zenodo.15715066)
+[![OpenAIRE](https://img.shields.io/badge/OpenAIRE-Publication-orange.svg)](https://explore.openaire.eu/search/publication?pid=10.5281%2Fzenodo.15715066)
+[![Code & Setup](https://img.shields.io/badge/Repository-vipplavai%2FDDP-black.svg)](https://github.com/vipplavai/DDP)
+
+> Explores turning academic workstation computer labs into a mini-High-Performance Computing (HPC) cluster across **90 NVIDIA Quadro RTX 4000 GPUs** (55+ nodes) for large-scale language model pretraining. Implements PyTorch Distributed Data-Parallel (DDP) with NCCL backend and automated node discovery (`auto.py`), slashing training costs compared to cloud GPU providers.
+
+---
+
 ## 🛠️ Open-Source Indic NLP & Tooling
 
+* **[vipplavai/DDP](https://github.com/vipplavai/DDP):** Multi-node distributed pretraining framework, network automation, and NCCL benchmark scripts for GPU clusters (referenced in Zenodo paper).
 * **[vip_tel_tokenizer](https://github.com/vipplavai/vip_tel_tokenizer):** Interactive web visualizer (similar to Tiktokenizer) demonstrating Telugu Byte-Pair Encoding (BPE) token compression and fertility comparisons.
 * **[OCR_Tool](https://github.com/vipplavai/OCR_Tool):** Regional document digitization pipeline leveraging OpenCV adaptive preprocessing and Tesseract Indic engines to extract clean text from scanned PDFs and regional government orders.
 * **[Sangraha_EDA](https://github.com/vipplavai/Sangraha_EDA):** In-depth exploratory data analysis and vocabulary distribution profiling of the AI4Bharat Sangraha Telugu dataset.
@@ -100,7 +113,7 @@ Vipplav AI partners with startups and enterprises to deploy production-grade AI 
 1. **Foundational & Domain-Specific SLMs:** High-performance Small Language Models tuned for Indian languages, legal, finance, and healthcare.
 2. **Deterministic & Verifiable RAG:** Zero-hallucination document intelligence pipelines where every claim is backed by source passage citations.
 3. **Agentic Workflow Automation:** Self-correcting AI agent loops integrated with internal business databases and human review gates.
-4. **Indic Speech & OCR:** High-accuracy document digitization and regional voice conversational interfaces.
+4. **Distributed GPU Infrastructure & Training:** Distributed PyTorch DDP cluster setup on heterogeneous, on-premise, or hybrid GPU clusters.
 
 ---
 
